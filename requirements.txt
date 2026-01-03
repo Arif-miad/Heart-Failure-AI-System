@@ -2,17 +2,17 @@
 streamlit==1.28.0
 
 # Data manipulation
-pandas==2.1.0
-numpy==1.26.0
+pandas==2.0.3      # Stable pre-built wheel
+numpy==1.25.2      # Compatible with pandas 2.0.3
 
 # Machine Learning
 scikit-learn==1.3.0
 joblib==1.3.2
 
 # Visualization
-matplotlib==3.8.0
+matplotlib==3.7.2
 seaborn==0.12.2
 plotly==6.1.0
 
-# Optional (for nicer UI / data handling)
-pillow==10.0.0
+# Image handling (optional for icons/images)
+pillow==9.5.0      # Older, stable version
